@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    background: #eef2ff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2a308d;
+}
+
+.input-box {
+    margin: 20px auto;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #999;
+}
+
+button {
+    background: #2a308d;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4450c7;
+}
+
+.list {
+    margin-top: 25px;
+}
+
+ul {
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    padding: 0;
+}
+
+li {
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    border-left: 6px solid #2a308d;
+}
+
+.expired {
+    border-left: 6px solid #c72b2b;
+    background: #ffe7e7;
+}

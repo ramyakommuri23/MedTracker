@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedTrack-Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MedTrack-Pro 💊</h1>
+    <h3>Pharmacy Inventory & Expiry Tracker (Linked List)</h3>
+
+    <div class="input-box">
+        <input type="text" id="name" placeholder="Medicine Name">
+        <input type="number" id="qty" placeholder="Quantity">
+        <input type="date" id="expiry">
+        <button onclick="addMedicine()">Add</button>
+        <button onclick="deleteExpired()">Remove Expired</button>
+    </div>
+
+    <div class="list">
+        <h2>Medicine List</h2>
+        <ul id="medicineList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
